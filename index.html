@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel_Explore the world</title>
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!--Header-->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">JetSetGo </h1>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#features">Features</a></li>
+                <li><a href="#destinations">Destintaions</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+
+
+            <!--Buttons-->
+            <div class="buttons">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="signup">SignUp</a>
+            </div>
+
+
+            <!--Hamburger-->
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;</div>
+        </nav>
+    </header>
+    <main>
+
+
+        <!--HeroSection-->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h3 class="tagline">Your Journey Starts Here</h3>
+                <h2>Discover Amazing Places Around the World</h2>
+                <button class="cta-btn">Book Your Trip</button>
+            </div>
+        </section>
+
+
+        <!--Features-->
+        <section class="features" id="features">
+            <h2>Why Choose JetSetGo</h2>
+            <p class="section-desc">We help travelers discover destinations,plan trips, and book experiences
+                effortlessely.</p>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fa-solid fa-plane"></i>
+                    <h3>Easy Booking</h3>
+                    <p>Quick and secure destination bookings.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Top Destinations</h3>
+                    <p>Handpicked locations across the globe.
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-message"></i>
+                    <h3>24/7 Support</h3>
+                    <p>We're here to help anytime you need.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Destinations-->
+        <section class="destinations" id="destinations">
+            <h2>Explore to Destinations</h2>
+            <div class="destination-grid">
+                <article class="destination-card">
+                    <img src="/images/destination1.jpg" alt="paris">
+                    <div class="card-top">
+                        <h3>Paris </h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.4</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"> </i>
+                            <span>France</span>
+                        </div>
+                        <span class="price">$950</span>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img src="/images/destination2.jpg" alt="Bali">
+
+                    <div class="card-top">
+                        <h3>Bali </h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.6</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"> </i>
+                            <span>Indonesia</span>
+                        </div>
+                        <span class="price">$650</span>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <img src="/images/destination3.jpg" alt="Dubai">
+                    <div class="card-top">
+                        <h3>Dubai</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.9</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"> </i>
+                            <span> Dubai</span>
+                        </div>
+                        <span class="price">$850</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <!--ClientReview-->
+        <section class="clientreview">
+            <h2>Our Valuable Client's Say</h2>
+            <div class="reviewbox">
+                <img src="/images/client.jpg" alt="Client" class="clientimage">
+                <h3>Martina David</h3>
+                <p class="role">UI/UX Designer</p>
+                <p class="review"> "Booking my vacation through this was the best decision I made.
+                    From planning the itinerary to arranging accommodations and local tours, everything
+                    was handled smoothly and professionally. The team was responsive, friendly,
+                    and ensured every detail was perfect. I truly enjoyed a stress-free and memorable travel
+                    experience.Highly recommended!"
+                </p>
+            </div>
+        </section>
+
+
+        <!--Blog-->
+        <section class="blog" id="blog">
+            <h2>Our Blog</h2>
+            <h3 class="blogpara">An insight the incridible experience in the world</h3>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="/images/blog1.jpg" alt="Asia">
+                    </div>
+                    <div class="blog-content">
+                        <p class="date">14 Mar, 2020</p>
+                        <h3>Research about Asia</h3>
+                        <p>Navigating the globe effortlessly,we transform <br>
+                            wanderlust dreams into seamless adventures.With us,<br>
+                            the world becomes your accessible playground,travel simplified.
+                        </p>
+                        <h4 span style="color: brown;">Explore Our Tour <i class="fa-solid fa-arrow-right"></i></h4>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="/images/blog2.jpg" alt="Thailand">
+                    </div>
+                    <div class="blog-content">
+                        <p class="date">1 Jul, 2025</p>
+                        <h3>Weedays in Thailand</h3>
+                        <p>Thailand offers a diverse array of tourist attractions ranging from bustling city life and
+                            ancient temples to pristine tropical beaches and lush national parks. </p>
+                        <h4 span style="color: brown;">Explore Our Tour <i class="fa-solid fa-arrow-right"></i></h4>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="/images/blog3.jpg" alt="Indonesia">
+                    </div>
+                    <div class="blog-content">
+                        <p class="date">21 Dec, 2020</p>
+                        <h3>Research about Indonesia</h3>
+                        <p>Indonesia, the world's largest archipelagic state with over 17,000 islands, is a Southeast
+                            Asian nation situated between the Indian and Pacific Oceans</p>
+                        <h4 span style="color: brown;">Explore Our Tour <i class="fa-solid fa-arrow-right"></i></h4>
+                    </div>
+                </div>
+        </section>
+
+
+        <!--Contact-->
+        <section class="contact" id="contact">
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-box">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4>JetSetGo</h4>
+                    <p>Plan your travel with us and explore now.</p>
+                    <p>Connect with us
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Download our mobile app</h4>
+                    <p>App Store | Google Play</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <p>About Our Company</p>
+                    <p>Carrer & Opportunity</p>
+                    <p>Contact Us</p>
+                    <p>Services We Provide</p>
+                    <p>Privacy & Policy</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <p>About Company</p>
+                    <p>Our testimonials</p>
+                    <p>Latest News</p>
+                    <p>Our mission</p>
+                    <p>Get a Free Quot</p>
+                    <p>Terms & Conditions</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">Copyright @2026jetsetgo. All Rights Reserved </p>
+            </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            document.getElementById("navlinks").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
